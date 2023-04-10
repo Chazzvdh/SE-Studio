@@ -1,0 +1,7 @@
+.textField {
+    -fx-background-color: #252525;
+    -fx-text-fill: white;
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}

@@ -1,0 +1,19 @@
+.normalButton {
+    -fx-background-color: #252525;
+    -fx-background-radius: 0;
+    -fx-text-fill: white;
+    -fx-font-family: Calibri;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+}
+.normalButton:hover {
+    -fx-background-color: #494949;
+}
+.normalButton:focused {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
+.normalButton:focused:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: black;
+}
