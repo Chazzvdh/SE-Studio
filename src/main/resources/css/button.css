@@ -4,16 +4,23 @@
     -fx-text-fill: white;
     -fx-font-family: Calibri;
     -fx-font-weight: bold;
-    -fx-font-size: 20;
+    -fx-font-size: 15;
 }
 .normalButton:hover {
+    -fx-background-color: #2f2f2f;
+}
+.normalButton:pressed {
     -fx-background-color: #494949;
 }
-.normalButton:focused {
-    -fx-background-color: #ffffff;
-    -fx-text-fill: black;
+
+.titleBarButton {
+    -fx-background-color: #252525;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
 }
-.normalButton:focused:hover {
-    -fx-background-color: #ffffff;
-    -fx-text-fill: black;
+.titleBarButton:hover {
+    -fx-background-color: #2f2f2f;
+}
+.titleBarButton:pressed {
+    -fx-background-color: #494949;
 }

@@ -7,6 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
+
 public class titleBarController {
 
     @FXML
@@ -19,10 +20,7 @@ public class titleBarController {
     private Button minimizeButton;
 
     @FXML
-    private AnchorPane topAnchorPane;
-
-    @FXML
-    private AnchorPane bottomAnchorPane;
+    private AnchorPane titleBar;
 
     @FXML
     void closeButtonClicked(ActionEvent event) {
